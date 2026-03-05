@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --import tsx api/index.js"
+    "dev": "node --import tsx api/index.ts",
+    "build": "prisma generate"
   },
   "keywords": [],
   "author": "",
