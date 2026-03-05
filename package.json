@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build":"prisma generate",
-    "start": "node api/index.js",
     "dev": "tsx api/index.ts"
   },
   "keywords": [],
