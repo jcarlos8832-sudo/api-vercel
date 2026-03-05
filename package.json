@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx api/index.ts",
-     "postinstall": "prisma generate"
+    "build": "prisma generate",
+    "dev": "tsx api/index.ts"
   
   },
   "keywords": [],
