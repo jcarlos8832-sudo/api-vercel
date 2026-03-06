@@ -1,7 +1,7 @@
 import express from 'express';
 import {getAllUsers, creatUsers, putUsers, DeleteUsers,login} from '../user.js';
 import {getAllPost, creatPost, putPost, DeletePost} from '../post.js';
-import { auth } from '../middleware/middleware.js';
+import { auth } from '../auth/middleware.js';
 import serverless from 'serverless-http';
 
 const app = express();
