@@ -2,7 +2,6 @@ import express from 'express';
 import {getAllUsers, creatUsers, putUsers, DeleteUsers,login} from './user.js';
 import {getAllPost, creatPost, putPost, DeletePost} from './post.js';
 import { auth } from './auth/middleware.js';
-import serverless from 'serverless-http';
 
 const app = express();
 app.use(express.json());
@@ -33,4 +32,4 @@ app.get('/', (req, res) => {
   res.send('Welcome!');
 });
 
-export default serverless(app);
+export default app;
