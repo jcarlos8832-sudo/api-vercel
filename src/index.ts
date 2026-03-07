@@ -28,7 +28,7 @@ app.put('/post/:id', auth, putPost);
 
 app.delete('/post/:id', auth, DeletePost);
 
-//Teste de rota
+//Teste de rotas
 app.get('/', (req, res) => {  
   res.send('Welcome!');
 });
